@@ -9,7 +9,11 @@ import { AppComponent } from './app.component';
 
 import {
 	MatSidenavModule,
-	MatCardModule
+	MatCardModule,
+	MatGridListModule,
+	MatListModule,
+	MatExpansionModule,
+	MatToolbarModule
 } from '@angular/material';
 
 @NgModule({
@@ -22,7 +26,11 @@ import {
 		MatSidenavModule,
 		MatCardModule,
 		BrowserAnimationsModule,
-		HttpClientModule
+		HttpClientModule,
+		MatGridListModule,
+		MatListModule,
+		MatExpansionModule,
+		MatToolbarModule
 	],
 	providers: [],
 	bootstrap: [AppComponent]
